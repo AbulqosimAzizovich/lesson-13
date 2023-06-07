@@ -118,20 +118,28 @@
 
 // 10-masala
 
-function karra (a, b){
-    let count = 1;
-    for (let i = a; i<=b; i++){
-        count = 1;
-        for (let j = 1; j <= 10; j++){
-            count = j * i;
-            console.log(`${i} * ${j} = ${count} `)
-        }
-        console.log("\t ")
-    }
-}
+// function karra (a, b){
+//     let count = 1;
+//     for (let i = a; i<=b; i++){
+//         count = 1;
+//         for (let j = 1; j <= 10; j++){
+//             count = j * i;
+//             console.log(`${i} * ${j} = ${count} `)
+//         }
+//         console.log("\t ")
+//     }
+// }
 
-let a = +prompt("Start")
-let b = +prompt("End")
+// let a = +prompt("Start")
+// let b = +prompt("End")
 
-karra(a, b)
+// karra(a, b)
+
+
+
+
+
+
+
+
 
